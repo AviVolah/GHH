@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub Helper Options</title>
+	<style> div[data-alignment="center"] { margin: 0 auto; }  div[data-alignment-v="middle"] { display: flex; justify-content: center; align-items: center; }</style>
+	
+  </head>
+  <body bgcolor="#809000">
+  <div data-alignment="center" data-alignment-v="middle">
+    <form id="options-form">
+	  <p><b>For the extension to have access to function on your behalf on GitHub please provide your access token</b></p>
+      <label for="access-token"><b>Access Token:</b></label>
+      <input type="text" id="access-token" name="access-token" required>
+      <button type="submit" id="save-options-button">Save</button>
+      <div id="message" ></div>
+	  <p><b>To get you access token, go to: <a style="color: #800900;" href="https://github.com/settings/tokens" target="_blank" rel="noopener"> this page</a> while logged in to your GitHub account</b></p>
+    </form></div>
+
+    <script src="options.js"></script>
+
+  </body>
+</html>
